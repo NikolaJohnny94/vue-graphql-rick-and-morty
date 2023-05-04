@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Rick & Morty';
+  src: url('./fonts/get_schwifty.ttf');
+}
+
+body {
+  font-family: 'Rick & Morty', sans-serif;
+  user-select: none;
+}
+
